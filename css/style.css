@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(63, 63, 201);
+}
+*{margin:0; padding: 0;
+}
+.imagem{
+    width: 10%;
+    height: 10%;
+    border: 5px solid brown;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav, ul , li {
+    border:2px solid black;
+    font-size:5 px;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+a {
+    text-decoration: none;
+    
+}
+.nav , a{
+    background-color: rgb(224, 91, 202);
+    font-size: 45px;
+    display: inline;
+    align-self: center;
+    text-align: center;
+}
+.nav a:hover{
+    color:yellow;
+    background-color: brown;
+}
+.container{
+    background-color: azure;
+}
+a , .container{
+    background-color: rgb(199, 207, 214);
+}
+a:hover .conteudo{
+    background-color:beige;
+    color
+
+}
+
+
+
+.rodape{
+    background-color: gray;
+}
+.rodape , a{
+    font-size: 30px;
+    color: black;
+}
+.rodape , a:hover{
+    background-color: rgb(151, 128, 128);
+    color: rgb(255, 251, 0);
+}
