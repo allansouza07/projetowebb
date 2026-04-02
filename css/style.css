@@ -18,10 +18,16 @@ body {
     display: inline;
     display: flex;
     justify-content: center;
-    
-    
-
+} 
+.ofertas{
+    color:red;
+    font-size: 25px;
+}    
+.conteudo{
+    font-size: 30px;
 }
+
+
 a {
     text-decoration: none;
     
@@ -33,32 +39,38 @@ a {
     align-self: center;
     text-align: center;
 }
-.nav a:hover{
+.nav, a:hover{
     color:yellow;
     background-color: brown;
+    border: 3px solid black;
 }
 .container{
-    background-color: azure;
+    background-color: rgb(216, 119, 119);
 }
-a , .container{
-    background-color: rgb(199, 207, 214);
+ .container , a{
+    background-color: rgb(255, 255, 255);
+    border:5px solid black;
 }
-a:hover .conteudo{
-    background-color:beige;
-    color
-
+ .container a:hover{
+    background-color:rgb(151, 151, 26);
+    
 }
 
 
 
-.rodape{
-    background-color: gray;
+.rodape {
+    background-color:gray;
+    
+
 }
 .rodape , a{
     font-size: 30px;
     color: black;
 }
-.rodape , a:hover{
-    background-color: rgb(151, 128, 128);
+.rodape a:hover{
+    background-color: rgb(180, 137, 185);
+}
+a:hover , .rodape{
     color: rgb(255, 251, 0);
+    
 }
